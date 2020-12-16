@@ -149,10 +149,7 @@ height: auto; }
     padding-bottom: 4rem;
     max-height: 100vh;
 }
-#project-pics{
-    height: 600px;
-    width: auto;
-}
+
 .title{
     align-content: center;
 }
