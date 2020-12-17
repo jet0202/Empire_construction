@@ -1,16 +1,31 @@
-.my-gallery {
-    
-  }
-  .my-gallery img {
+  body{
+    margin: 0;    
+}
+
+h1{
+    margin: 2em 0;
+}
+
+img{
     width: 100%;
-    height: auto;
-  }
-  .my-gallery figure {
-    display: block;
-    float: left;
-    margin: 0 5px 5px 0;
-    width: 150px;
-  }
-  .my-gallery figcaption {
-    display: none;
-  }
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.grid{
+    display: flex;
+}
+
+.grid-col{
+    flex: 1;
+    padding: 0 .1em;
+}
+
+@media(min-width: 768px){
+    .container{
+        width: 90%;
+    }
+}
