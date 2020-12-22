@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -8,62 +9,264 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/lib/photoswipe/css/photoswipe.css">
+    <link rel="stylesheet" href="/lib/default-skin/default-skin.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/portfolio.css">
+    <title>Empire</title>
 </head>
 
 <body>
-    <nav class="navigation">
-        <div class="content">
-            <div class="logo"><a href="index.html">Empire</a></div>
-            <ul class="menu-list">
-                <li><a href="Portfolio.html">Portfolio</a></li>
-                <li><a href="aboutus.html">About us</a></li>
-                <li><a href="contactus.html">Contact us</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="banner"></div>
-    <div class="about">
-        <div class="content">
-            <div class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem expedita fuga earum sed cum ex
-                nemo tempore unde delectus quidem odit in nesciunt, sint tempora perferendis temporibus quis omnis
-                magni. Iusto iure reiciendis neque molestiae obcaecati animi corporis laboriosam, magni deleniti fugiat
-                recusandae voluptatem? Quo unde, sint reprehenderit obcaecati reiciendis nesciunt porro exercitationem
-                aliquam?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, a! Minima molestias praesentium vitae
-                minus, nesciunt id temporibus earum alias esse sapiente fugit!</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt atque reiciendis recusandae eligendi.
-                In ab est sapiente possimus deleniti ipsa nihil error quas eveniet doloribus maxime, quibusdam libero a
-                laboriosam vero minus, nisi ut natus quisquam assumenda, dignissimos ipsam. Delectus omnis praesentium
-                fuga autem maxime est perspiciatis repudiandae provident nisi nam recusandae non atque, beatae
-                veritatis? In praesentium aperiam hic repudiandae debitis suscipit corrupti facilis fuga dolores nulla
-                necessitatibus officiis earum sapiente repellat nesciunt molestias cumque et quam ut ad illo nihil, unde
-                vitae? Natus, eius tempore doloremque hic totam fugit neque iste saepe exercitationem blanditiis
-                accusantium iusto aliquid, facere expedita in illo vitae debitis? Non eveniet alias unde dignissimos
-                consectetur saepe. Animi, iure. Voluptates labore exercitationem cumque laborum accusamus eaque
-                quibusdam vero tempore delectus quis eum amet qui molestias reiciendis aperiam, quas dolor quasi
-                consequuntur sapiente tenetur, velit soluta blanditiis voluptatibus officia? Labore minima odio rem,
-                perferendis iusto eaque ab doloribus? Est officiis amet mollitia impedit aliquam, corporis nobis animi
-                cumque ipsa veniam, ullam harum deserunt illo velit, aperiam rem dolore accusamus molestiae possimus
-                dolor debitis minus! Minus, quis soluta consequatur deserunt quas tempora dicta nam ratione
-                reprehenderit quos consequuntur dolor quod in tenetur, voluptatem laudantium.</p>
-        </div>
-    </div>
+
+    <body>
+        <nav class="navigation">
+            <div class="content">
+                <div class="logo">
+                    <a href="index.html">Empire</a>
+                </div>
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                    <li class="social"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <div class="icon menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">            
+            <div class="carousel-inner">
+              <div class="carousel-item port-banner active">
+                <img src="/img/pic1.jpg" class="d-block w-100 rounded carousel-pic" alt="pic1">
+                <div class="container">
+                    <div class="carousel-caption text-right">
+                        <h1>One more for good measure.</h1>                    
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Check out this project</a></p>
+                      </div>
+                </div>
+              </div>
+              <div class="carousel-item port-banner">
+                <img src="/img/pic2.jpg" class="d-block w-100 rounded carousel-pic" alt="pic2">
+                <div class="container">
+                    <div class="carousel-caption text-right">
+                        <h1>One more for good measure.</h1>                    
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Check out this project</a></p>
+                      </div>
+                </div>
+              </div>
+              <div class="carousel-item port-banner">
+                <img src="/img/pic3.jpg" class="d-block w-100 rounded carousel-pic" alt="pic3">
+                <div class="container">
+                  <div class="carousel-caption text-right">
+                    <h1>One more for good measure.</h1>                    
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Check out this project</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        <!-- <div class="port-banner"></div> -->
+        <section class="projects">
+          <div class="container">
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="projects-header">Our Projects</h1>                
+            </div>
+            <hr class="line">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Lorem ipsum dolor sit.</h1>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="..." class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Lorem ipsum dolor sit.</h1>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="..." class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Lorem ipsum dolor sit.</h1>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="..." class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Lorem ipsum dolor sit.</h1>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="..." class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            
+
+          </div>
+        </section>
+    
+        
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2>Empire Construction</h2>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Menu</h3>
+                        <ul>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="aboutus.html">About us</a></li>
+                            <li><a href="contactus.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Contact us</h3>
+                        <ul>
+                            <li><i class="fas fa-at"></i> email_address@email.com</li>
+                            <li><i class="fas fa-phone-volume"></i> 1(246) 124-9876</li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+        
 
-</body>
+
+
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+            integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
+            integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
+            crossorigin="anonymous"></script>
+        <script>
+            const body = document.querySelector("body");
+            const navbar = document.querySelector(".navigation");
+            const menuBtn = document.querySelector(".menu-btn");
+            const cancelBtn = document.querySelector(".cancel-btn");
+            menuBtn.onclick = () => {
+                navbar.classList.add("show");
+                menuBtn.classList.add("hide");
+                body.classList.add("disabled");
+            }
+            cancelBtn.onclick = () => {
+                body.classList.remove("disabled");
+                navbar.classList.remove("show");
+                menuBtn.classList.remove("hide");
+            }
+            window.onscroll = () => {
+                this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+            }
+
+
+        </script>
+        <script src="/lib/photoswipe/js/photoswipe.min.js"></script>
+        <script src="/lib/photoswipe/js/photoswipe-ui-default.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/app.js"></script>
+        <script src="https://unpkg.com/colcade@0/colcade.js"></script>
+        <script>
+            var colc = new Colcade('.grid', {
+                columns: '.grid-col',
+                items: '.grid-item'
+            });
+
+            AOS.init();
+        </script>
+
+
+
+
+
+    </body>
 
 </html>
