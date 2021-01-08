@@ -213,3 +213,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 // execute above function
 initPhotoSwipeFromDOM('.my-gallery');
+
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+
+AOS.init();

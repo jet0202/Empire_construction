@@ -1,0 +1,117 @@
+.jumbotron {
+    height: 50vh;
+    background-image: url("../img/contact.jpg");
+    background-size: cover;
+}
+
+.jumbotron::before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 50vh;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.socials {
+    min-height: 65vh;
+}
+
+.tel-email {
+    min-height: 35vh;
+    background-color: #525252;
+}
+.title{
+    color: #fff;
+    font-size: 80px;
+}
+.paragraph{
+    color: rgba(255, 255, 255, 0.781);
+}
+.cta{
+    margin-top: 3em;
+    display: inline-block;
+    background: #109953;
+    color: black;
+    text-decoration: none;
+    padding: .5em 1em;
+    border-radius: .2em;
+    font-weight: bold;
+    border: none;
+}
+
+/* .box {
+    border-radius: 3em;
+    background: #f1f6fc;
+    box-shadow: 20px 20px 60px rgba(120, 113, 153, 0.466), 20px 20px 60px rgba(120, 113, 153, 0.582), 20px 20px 60px rgba(120, 113, 153, 1);
+    background: #f1f6fc;
+    background: -moz-linear-gradient(-45deg, #f1f6fc 0%, #c7cae9 100%);
+    background: -webkit-linear-gradient(-45deg, #f1f6fc 0%, #c7cae9 100%);
+    background: linear-gradient(135deg, #f1f6fc 0%, #c7cae9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColors='#f1f6fc', endColorstr='#c7cae9');
+} */
+
+.cls-1, .cls-13 {
+    fill: #525252;
+}
+
+.cls-1, .cls-10, .cls-11, .cls-5, .cls-7 {
+    stroke: #231f20;
+}
+
+.cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-2, .cls-3, .cls-5, .cls-7, .cls-8, .cls-9 {
+    stroke-miterlimit: 10;
+}
+
+.cls-2 {
+    fill: #6d6c6d;
+}
+
+.cls-12, .cls-13, .cls-2, .cls-3, .cls-8, .cls-9 {
+    stroke: #525252;
+}
+
+.cls-11, .cls-2, .cls-3 {
+    stroke-width: 3px;
+}
+
+.cls-3 {
+    fill: #9b989b;
+}
+
+.cls-4 {
+    fill: #109953;
+}
+
+.cls-5 {
+    fill: #fff;
+}
+
+.cls-6 {
+    fill: #8e8e8e;
+}
+
+.cls-7 {
+    fill: #595757;
+}
+
+.cls-8 {
+    fill: #edebe8;
+}
+
+.cls-8, .cls-9 {
+    stroke-width: 12px;
+}
+
+.cls-10, .cls-12, .cls-9 {
+    fill: none;
+}
+
+.cls-11 {
+    fill: #8c8c8c;
+}
+
+.cls-12 {
+    stroke-width: 5px;
+}

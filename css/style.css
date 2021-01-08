@@ -104,7 +104,7 @@ nav.navigation.sticky {
   transition: all 0.3s ease;
 }
 .menu-list li a:hover{
-  color: #007bff;
+  color: rgb(25, 124, 63);
 }
 .banner{
     position: relative; 
@@ -256,3 +256,24 @@ img{
   padding: 2rem 0;
 }
 
+.empire-logo{
+  height: 100px;
+  width: auto;
+}
+.footer-links{
+  list-style-type: none;
+}
+.footer-links>li>a{
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.footer-links>li>a:hover{
+  text-decoration: none;
+  color: rgb(25, 124, 63);
+}
+.footer-icon{
+  height: 50px;
+  width: auto;
+  color: #f1f1f1;
+}
