@@ -13,44 +13,75 @@
     left: 0px;
     background-color: rgba(0, 0, 0, 0.473);
 }
+.contact-banner{
+  position: relative; 
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/contact.jpg") no-repeat;
+  background-size: cover;
+}
+.contact-banner::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.25);
+}
 
 .socials {
-    min-height: 65vh;
+    min-height: auto;
+    background-color: #525255;
 }
 
 .tel-email {
-    min-height: 35vh;
-    background-color: #525252;
+    min-height: 40vh;
+    background-color: #fff;
 }
 .title{
-    color: #fff;
+    color: #525252;
     font-size: 80px;
 }
+.title2{
+    color: #fff;
+    font-size: 60px;
+}
 .paragraph{
-    color: rgba(255, 255, 255, 0.781);
+    /* color: rgba(255, 255, 255, 0.781); */
+    color: #6d6c6d;
+}
+.fb-icon{
+  height: 200px !important;
 }
 .cta{
     margin-top: 3em;
     display: inline-block;
     background: #109953;
-    color: black;
+    color: #fff;
     text-decoration: none;
     padding: .5em 1em;
     border-radius: .2em;
     font-weight: bold;
     border: none;
+    
+}
+.cta:hover{
+    text-decoration: none;
+    color: white;
+}
+.card-bg{
+    -webkit-filter: drop-shadow( 6px 6px 4px rgba(0, 0, 0, .7));
+  filter: drop-shadow( 6px 6px 4px rgba(0, 0, 0, .7));
 }
 
-/* .box {
-    border-radius: 3em;
-    background: #f1f6fc;
-    box-shadow: 20px 20px 60px rgba(120, 113, 153, 0.466), 20px 20px 60px rgba(120, 113, 153, 0.582), 20px 20px 60px rgba(120, 113, 153, 1);
-    background: #f1f6fc;
-    background: -moz-linear-gradient(-45deg, #f1f6fc 0%, #c7cae9 100%);
-    background: -webkit-linear-gradient(-45deg, #f1f6fc 0%, #c7cae9 100%);
-    background: linear-gradient(135deg, #f1f6fc 0%, #c7cae9 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColors='#f1f6fc', endColorstr='#c7cae9');
-} */
+.fb{
+  background-color: #fff;
+  min-height: auto;
+}
 
 .cls-1, .cls-13 {
     fill: #525252;
@@ -81,7 +112,7 @@
 }
 
 .cls-4 {
-    fill: #109953;
+    fill:x  ;
 }
 
 .cls-5 {
@@ -115,3 +146,77 @@
 .cls-12 {
     stroke-width: 5px;
 }
+/* Bob */
+@-webkit-keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @-webkit-keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  .hvr-bob {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }
+
+  @media only screen 
+  and (max-width : 400px) {
+    .cta{
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  @media only screen 
+  and (min-width : 1200px) {}

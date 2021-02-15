@@ -1,0 +1,22 @@
+.jumbotron{
+    padding: unset;
+    margin: unset;
+    height: 75vh ;
+}
+.jumbotron img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* position: absolute; */
+    opacity: 0.5;
+}
+
+section{
+    padding: 3em;
+}
+
+.hd-underline{
+    background-color: #525252;
+      height: 3px;
+      margin-bottom: 40px !important;
+}

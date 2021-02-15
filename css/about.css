@@ -18,8 +18,14 @@
     background-color: rgba(0,0,0,0.25);
 }
 
+.img-text{
+    color: #fff;
+    /* z-index: 2; */
+    position: absolute;
+}
+
 .about-section{
-    min-height: 70vh;
+    min-height: 70vh !important;
     padding: 3rem 0;
 }
 .leadrship{
@@ -31,3 +37,11 @@
     height: 130px;
     width: auto;
 }
+
+@media only screen 
+   and (max-width : 400px) {
+    .about-logo{
+        padding-bottom: 30px;
+    }
+    
+   }
